@@ -1,0 +1,50 @@
+div > p {
+  color: red;
+}
+
+/* li + li {
+  color: blue;
+} */
+
+/* #lista:has(> h1) {
+  background: red;
+} */
+
+/* #lista:not(:hover) {
+  background: pink;
+} */
+
+/* Pares */
+li:nth-child(even) {
+  color: red;
+}
+
+li:nth-child(odd) {
+  color: blue;
+}
+
+/* ///////////// */
+
+* {
+  color: red;
+}
+
+h1 {
+  color: green;
+}
+
+h1 {
+  color: blue;
+}
+
+.paragraph {
+  color: yellow;
+}
+
+h1.paragraph#paragraph {
+  color: pink;
+}
+
+h1 {
+  color: red !important;
+}

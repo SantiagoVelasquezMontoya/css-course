@@ -1,0 +1,54 @@
+* {
+  color: red;
+}
+/* Peso 0 */
+
+html {
+  scroll-behavior: smooth;
+}
+
+#text {
+  color: green;
+  /* margin-top: 10000px; */
+}
+
+.main-title {
+  color: blue;
+}
+
+h2 {
+  color: indigo;
+}
+
+input[type] {
+  background-color: red;
+}
+
+input[data-label^='Nombre'] {
+  background-color: gray;
+}
+/* Cuando inicia */
+
+input[data-label$='Persona'] {
+  background-color: gray;
+}
+/* Cuando termina */
+
+input[data-label~='nombre' i] {
+  background-color: blue;
+}
+
+
+/* Cuando Incluye */
+
+/* .main-title {
+  color: orange;
+} */
+
+/* Peso 10 */
+
+/* Mas peso que la clase */
+
+/* Cascade style sheets */
+
+/* Target */

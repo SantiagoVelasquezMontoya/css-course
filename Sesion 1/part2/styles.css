@@ -1,0 +1,29 @@
+button {
+  background: red;
+}
+
+/* Pseudo Clase */
+button:hover {
+  background: blue;
+}
+
+.link:visited {
+  color: red;
+}
+
+/* Pseudo Elemento */
+/* Debe ser un elemento contenedor. */
+input::placeholder {
+  color: red;
+  font-size: 64px;
+}
+
+.container::after {
+  content: attr(data-label);
+  color: red;
+}
+
+input::after {
+  content: 'Hola';
+  color: red;
+}
