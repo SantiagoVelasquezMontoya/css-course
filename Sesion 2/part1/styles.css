@@ -1,0 +1,26 @@
+/* SASS SCSS LESS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Content, Padding, Border, Margin << Box-Model */
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  padding: 20px;
+  border: 20px solid blue;
+  border-radius: 50%;
+}
+
+.square-one {
+  margin-bottom: 10px;
+}
+
+.square-two {
+  margin-top: 50px;
+}
