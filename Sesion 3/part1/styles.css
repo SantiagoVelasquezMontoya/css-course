@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+main {
+  /* width: 70%; */
+  height: 100vh;
+  margin: auto;
+  padding: 2em;
+}
+
+.box-1 {
+  width: 200px;
+  height: 200px;
+  background-color: #0066ff;
+  display: inline-block;
+}
+
+span.outside-span {
+  color: #ff2222;
+  font-family: 'Roboto', sans-serif;
+  width: 200px;
+  display: inline;
+}
+
+/* Inline > No aceptan propiedades como width o height */
+/* Inline o Inline-block Aceptan elementos en frente */
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #363636;
+  font-size: 1rem;
+  display: inline;
+}
+
+p span {
+  color: #0066ff;
+}
+
+.box-2 {
+  width: 200px;
+  height: 200px;
+  background-color: #ff6655;
+  display: inline-block;
+  /* display: none; */
+  /* opacity: 0.2; */
+  /* visibility: hidden; */
+}
