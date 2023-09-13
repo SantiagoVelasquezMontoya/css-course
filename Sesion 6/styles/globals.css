@@ -1,0 +1,11 @@
+:root {
+  --white-color: #fff;
+  --accent-color: #1ed760;
+
+  --dark-color-800: #000;
+  --dark-color-600: #101010;
+  --dark-color-400: #b3b3b3;
+  --dark-color-300: #a7a7a7;
+
+  --font-primary: 'Roboto', sans-serif;
+}

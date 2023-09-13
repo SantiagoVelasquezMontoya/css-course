@@ -1,0 +1,7 @@
+@import url('./reset.css');
+@import url('./globals.css');
+
+h1 {
+  color: var(--accent-color);
+  font-family: var(--font-primary);
+}
