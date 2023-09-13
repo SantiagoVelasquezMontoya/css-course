@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  padding: 1em 2em;
+}
+
+li {
+  font-family: 'Candara', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+main .hero {
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  flex-grow: 1;
+
+  .title {
+    font-size: 4rem;
+  }
+  .paragraph {
+    font-size: 1.5rem;
+    max-width: 600px;
+  }
+}
+
+main .image-container {
+  flex-grow: 1;
+  /* width: 50%; */
+  position: relative;
+  border-radius: 50% 20px 50% 20px;
+  overflow: hidden;
+
+  flex-basis: 300px;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+main .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cta-btn {
+  font-size: 1.2rem;
+  padding: 0.4em 1em;
+  border: 1px solid dodgerblue;
+  background: dodgerblue;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}

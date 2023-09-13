@@ -1,0 +1,33 @@
+body {
+  display: flex;
+}
+
+p {
+  font-size: 2rem;
+  margin-top: 0px;
+
+  /* animation-name: move-up-2; */
+  animation-duration: 0.3s;
+  /* animation-delay: 1s; */
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes move-up-1 {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 200px;
+  }
+}
+
+@keyframes move-up-2 {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(200px);
+  }
+}

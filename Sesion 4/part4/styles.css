@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* H Hue > S Saturation > L Lightness */
+  --hue: 200;
+
+  --primary-color: hsla(var(--hue), 100%, 50%, 1);
+  --secondary-color: hsl(calc((var(--hue) + 90)), 100%, 50%);
+
+  --lightness: 50%;
+  --button-color: hsla(var(--hue), 100%, 50%, var(--lightness));
+  --button-hover: hsla(var(--hue), 100%, 50%, calc(var(--lightness) + 20%));
+}
+
+.parent {
+  width: 200px;
+  height: 200px;
+  background-color: var(--primary-color);
+}
+
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: var(--secondary-color);
+}
+
+button {
+  font-size: 1.1rem;
+  padding: 0.4em 0.8em;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+
+  background-color: var(--button-color);
+
+  &:hover {
+    background-color: var(--button-hover);
+  }
+}
